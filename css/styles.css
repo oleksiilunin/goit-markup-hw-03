@@ -85,8 +85,6 @@ p {
     padding-right: 15px;
 
     width: 1200px;
-
-    outline: 2px solid lime;
 }
 
 /*Header*/
@@ -224,8 +222,6 @@ p {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-
-    outline: 1px solid navy;
 }
 
 .section-title {
@@ -372,10 +368,23 @@ p {
 }
 
 
-        /* Portfolio - Projects */
+        /*Filter Portfolio*/
 
 .filter-list {
+    display: flex;
+    justify-content: center;
+    gap:  8px;
+
     margin-bottom: 50px;
+}
+
+         /*Projects Portfolio*/
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between;  */
+    gap: 30px;
 }
 
 .projects .title {
