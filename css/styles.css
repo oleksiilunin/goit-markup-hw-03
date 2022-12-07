@@ -171,8 +171,9 @@ p {
 }
 
 .slogan-title {     
+    margin-bottom: 30px;
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;      
 
     color: var(--slogan-text-color);
 
@@ -187,8 +188,7 @@ p {
 .btn-order {
     display: inline-block;
     margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
+    margin-right: auto;    
     padding: 10px 32px;
     border-radius: 4px;
 
@@ -210,6 +210,8 @@ p {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+
+    outline: 1px solid navy;
 }
 
 .section-title {
@@ -232,6 +234,8 @@ p {
 }
 
 .advantages .title {
+    margin-top: 10px;
+
     color: var(--secondary-text-color);
 
     font-size: 14px;
@@ -240,9 +244,7 @@ p {
     letter-spacing: 0.03em;
 }
 
-.advantages .text {
-    margin-top: 10px;
-
+.advantages .text {   
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -250,10 +252,13 @@ p {
 
         /*Our Work*/
 
-.work .list {
-    margin-top: 50px;
+.work {
+    margin-top: 0px;
 }
 
+.work .section-title {
+    margin-bottom: 50px;
+}
         /* Team */
 
 .team {
@@ -262,10 +267,12 @@ p {
 
     background-color: var(--team-backgrond-color);
 }
+
+.team .section-title {
+    margin-bottom: 50px;
+}
    
 .team .list {
-    margin-top: 50px;
-
     text-align: center;
 }
 
@@ -280,6 +287,8 @@ p {
 }
 
 .team .title {
+    margin-bottom: 10px;
+
     color: var(--secondary-text-color);
 
     font-weight: 500;
@@ -289,14 +298,12 @@ p {
     letter-spacing: 0.03em;
 }
 
-.team .text {
-    margin-top: 10px;
-
+.team .text { 
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03em;   
 }
 
 .team .img {
@@ -336,8 +343,8 @@ p {
 
         /* Portfolio - Projects */
 
-.projects-list {
-    margin-top: 34px;
+.filter-list {
+    margin-bottom: 50px;
 }
 
 .projects .title {
@@ -383,18 +390,17 @@ p {
 }
 
 .logo-footer {
+    margin-bottom: 20px;
+
     color: var(--logo-footer);
 }
 
     /* Address */
 
-.address {
-    margin-top: 20px;
-}
 
 .address .link {
     display: block;
-    margin-top: 10px;
+    margin-bottom: 9px;
 
     color: var(--footer-text-color);
 
@@ -409,8 +415,8 @@ p {
     color: var(--accent-color);
 }
 
-.address .location {
-    margin-top: 0;
+.address .tel {
+    margin-bottom: 0;
 
     color: var(--location-text-color);
 }
