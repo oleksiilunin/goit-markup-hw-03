@@ -85,12 +85,26 @@ p {
     padding-right: 15px;
 
     width: 1200px;
+
+    outline: 2px solid lime;
 }
 
 /*Header*/
 
 .header {
     border-bottom: 1px solid var(--header-line-border-color);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;    
+    align-items: center;
+    gap: 93px;
 }
 
 /* Logo */
@@ -118,15 +132,12 @@ p {
 
 .site-nav {
     display: flex;
+    align-items: center;
+    gap: 50px;
 
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-}
-
-.site-nav .item:not(:last-child) {
-    margin-right: 50px;
-    outline: 1px solid tomato;
 }
 
 .site-nav .link {
@@ -145,6 +156,9 @@ p {
 /* Contacts */
 
 .contacts {
+    display: flex;
+    gap: 50px;
+    
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -223,18 +237,30 @@ p {
     letter-spacing: 0.03em;
 }
 
+        /*Work*/
+
 .section.work {
     padding-top: 0;
 }
 
+.work-list {
+    display: flex;
+    justify-content: space-between;
+}
+
         /* Advantages */
+
+.advantage-list {
+    display: flex;
+    justify-content: space-between;
+}
 
 .advantages .item {
     max-width: 270px;
 }
 
 .advantages .title {
-    margin-top: 10px;
+    margin-bottom: 10px;
 
     color: var(--secondary-text-color);
 
@@ -271,10 +297,15 @@ p {
 .team .section-title {
     margin-bottom: 50px;
 }
-   
-.team .list {
+
+.team-list {
+    display: flex;
+    justify-content: space-between;
+
+
     text-align: center;
 }
+
 
 .team .card {
     padding-top: 30px;
@@ -399,7 +430,7 @@ p {
 
 
 .address .link {
-    display: block;
+    display: inline-block;
     margin-bottom: 9px;
 
     color: var(--footer-text-color);
