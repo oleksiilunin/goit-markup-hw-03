@@ -383,8 +383,11 @@ p {
 .projects-list {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between;  */
     gap: 30px;
+}
+
+.projects-list .card {
+    flex-basis: calc((100% - 2*30px) / 3);
 }
 
 .projects .title {
