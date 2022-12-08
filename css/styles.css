@@ -107,11 +107,13 @@ p {
 
 /* Logo */
 
-.logo {
-    display: inline-block;
-    padding-top: 24px;
-    padding-bottom: 25px;
+.header .logo {
+        display: inline-block;
+        padding-top: 24px;
+        padding-bottom: 25px;
+}
 
+.logo {
     color: var(--accent-color);
 
     font-family: 'Raleway', sans-serif;
@@ -139,6 +141,10 @@ p {
 }
 
 .site-nav .link {
+        display: inline-block;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    
     color: var(--secondary-text-color);
 }
 
@@ -163,6 +169,10 @@ p {
 }
 
 .contacts .link {
+    display: inline-block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: var(--primary-text-color);
 }
 
@@ -432,9 +442,12 @@ p {
     background-color: var(--secondary-background-color);
 }
 
-.logo-footer {
+.footer .logo {
+    display: inline-block;
     margin-bottom: 20px;
+}
 
+.logo-footer {
     color: var(--logo-footer);
 }
 
@@ -455,11 +468,14 @@ p {
 
 .address .link:hover,
 .address .link:focus {
-    color: var(--accent-color);
+    color: var(--accent-color);    
+}
+
+.address .location {
+    color: var(--location-text-color);
 }
 
 .address .tel {
-    margin-bottom: 0;
-
-    color: var(--location-text-color);
+    display: inlinea-block;
+    margin-bottom: 0px;
 }
